@@ -88,8 +88,8 @@
       <td id="blocked-categories">Loading...</td>
     </tr>
     <tr>
-      <td>Policy</td>
-      <td id="blocked-policy">Loading...</td>
+      <td>Source IP</td>
+      <td id="source-ip">Loading...</td>
     </tr>
   </table>
 
@@ -98,7 +98,7 @@
 
     document.getElementById("blocked-domain").textContent = params.get("domain") || "[Unknown]";
     document.getElementById("blocked-categories").textContent = params.get("categories") || "[Unknown]";
-    document.getElementById("blocked-policy").textContent = params.get("policy") || "[Unknown]";
+    document.getElementById("source-ip").textContent = params.get("ip") || "[Unavailable]";
   </script>
 
 </body>
